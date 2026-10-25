@@ -1,0 +1,5 @@
+Spack and Palace does not natively run on windows. If  you use windows run this command to have an Ubuntu subsystem on your windows device: 
+
+wsl --install -d Ubuntu
+
+You will have to restart your computer and then make an account on the Ubuntu profile. from there run bash installation.txt making sure both that and requirements.txt are in the same directory 

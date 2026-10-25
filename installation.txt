@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+git clone --depth=2 https://github.com/spack/spack.git
+. spack/share/spack/setup-env.sh 
+spack install palace
+git clone https://github.com/sqdlab/SQDMetal.git
+pip install -e SQDMetal
+pip install -r requirements.txt 
